@@ -1,0 +1,155 @@
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex; 
+  align-items: center; 
+  text-align: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  display: flex; 
+  align-items: center; 
+}
+
+.circle {
+  width: 12px; 
+  height: 12px; 
+  background-color: #d43b39; 
+  border-radius: 50%; 
+  margin: 0 5px; 
+}
+
+
+.search-container {
+  margin-top:35px ;
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  background-image: url('https://w7.pngwing.com/pngs/198/609/png-transparent-computer-icons-symbol-search-box-magnifying-glass-search-miscellaneous-black-zooming-user-interface-thumbnail.png'); /* Path to magnifying glass icon */
+  background-size: 16px; 
+  background-repeat: no-repeat;
+  background-position: 10px center; 
+  width: 200px;
+  outline: none;
+  font-size: 1em;
+}
+
+
+.search-button {
+  padding: 8px 15px;
+  font-size: 1em;
+  border: none;
+  background-color: #d43b39;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-left:190px;
+  color:red;
+  font-weight:400;
+}
+
+.news-section {
+  padding: 20px 0;
+}
+
+.main-card {
+  padding: 0 15px; 
+}
+
+.card {
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0; 
+}
+.right-arrow-icon {
+  width: 16px;
+  height: 16px; 
+  margin-left: 5px; 
+}
+
+.news-title {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: bold; 
+  color: #333;
+}
+
+.news-description {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.5; 
+}
+
+.read-more {
+  color: #d43b39;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em; 
+}
+
+.read-more:hover {
+  text-decoration: underline;
+  color: #b32d2c;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8em;
+  border-top: 1px solid #ddd;
+  color: #777;
+  margin-top: 40px; 
+  background-color:white; 
+}
+
+.circle2 {
+  width: 5px; 
+  height: 5px; 
+  background-color: #d43b39; 
+  border-radius: 50%; 
+  display: inline-block; 
+  margin: 0 5px 3px; 
+}
